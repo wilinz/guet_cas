@@ -1,0 +1,19 @@
+name: guet_cas
+description: >-
+  桂电 / 金智(Wisedu)统一身份认证(Apereo CAS 定制版)的 Dart 客户端实现。
+  含密码加密(AES-128-CBC,ASCII IV)、验证码流程、JSESSIONID/route 过期污染防护。
+version: 1.0.0
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  cookie_jar: ^4.0.9
+  dio: ^5.9.2
+  dio_cookie_manager: ^3.4.0
+  encrypt: ^5.0.3
+  html: ^0.15.6
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
